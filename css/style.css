@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* - White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%) */
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: hsl(0, 0%, 7%);
+  display: grid;
+  grid-template-areas: "main";
+  align-items: center;
+  justify-items: center;
+}
+
+main {
+  grid-area: main;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  background-color: hsl(0, 0%, 100%);
+  width: 325px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 15px 15px 0px -3px hsl(0, 0%, 7%);
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+}
+
+a:hover {
+  color: hsl(47, 88%, 63%);
+  caret-color: hsl(0, 0%, 7%);
+}
+
+h1, p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.bevel {
+  border-radius: 1rem;
+}
+
+.main__illustration {
+  border-radius: .6rem;
+  width: 100%;
+}
+
+.main__tag {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  font-weight: 800;
+}
+
+.main__text {
+  color: hsl(0, 0%, 50%);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main__avatar-img {
+  width: 40px
+}
+
+.main__avatar-text {
+  font-weight: 800;
+  font-size: .9rem;
+}
