@@ -21,10 +21,10 @@ body {
 
 main {
   grid-area: main;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 210px;
+  margin-bottom: 210px;
   background-color: hsl(0, 0%, 100%);
-  width: 325px;
+  width: 330px;
   border: 1px solid hsl(0, 0%, 7%);
   box-shadow: 15px 15px 0px -3px hsl(0, 0%, 7%);
 }
